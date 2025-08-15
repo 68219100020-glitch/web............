@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minimal World Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>🌐 World Chat</h1>
+    </header>
+    
+    <main>
+      <div id="chat-box"></div>
+      <input type="text" id="chat-input" placeholder="Type a message...">
+      
+      <hr>
+      
+      <div id="vc-section">
+        <h2>🎤 Voice Chat</h2>
+        <button id="start-vc">Start Voice Chat</button>
+        <audio id="remote-audio" autoplay></audio>
+      </div>
+
+      <hr>
+
+      <div id="games-section">
+        <h2>🎮 Games</h2>
+        <button id="game1-btn">Play Game 1</button>
+        <div id="game-container"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Minimal & Cool Chat</p>
+    </footer>
+  </div>
+
+  <script src="client.js"></script>
+</body>
+</html>
